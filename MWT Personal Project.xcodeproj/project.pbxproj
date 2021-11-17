@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45AA2B3A2745BFA100026655 /* MWT_Personal_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA2B392745BFA100026655 /* MWT_Personal_ProjectApp.swift */; };
+		45AA2B3C2745BFA100026655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA2B3B2745BFA100026655 /* ContentView.swift */; };
+		45AA2B3E2745BFA300026655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AA2B3D2745BFA300026655 /* Assets.xcassets */; };
+		45AA2B412745BFA300026655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AA2B402745BFA300026655 /* Preview Assets.xcassets */; };
+		45AA2B4B2745BFA300026655 /* MWT_Personal_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA2B4A2745BFA300026655 /* MWT_Personal_ProjectTests.swift */; };
+		45AA2B552745BFA300026655 /* MWT_Personal_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA2B542745BFA300026655 /* MWT_Personal_ProjectUITests.swift */; };
+		45AA2B572745BFA300026655 /* MWT_Personal_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA2B562745BFA300026655 /* MWT_Personal_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45AA2B472745BFA300026655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA2B2E2745BFA100026655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45AA2B352745BFA100026655;
+			remoteInfo = "MWT Personal Project";
+		};
+		45AA2B512745BFA300026655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA2B2E2745BFA100026655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45AA2B352745BFA100026655;
+			remoteInfo = "MWT Personal Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45AA2B362745BFA100026655 /* MWT Personal Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWT Personal Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AA2B392745BFA100026655 /* MWT_Personal_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWT_Personal_ProjectApp.swift; sourceTree = "<group>"; };
+		45AA2B3B2745BFA100026655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45AA2B3D2745BFA300026655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45AA2B402745BFA300026655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45AA2B462745BFA300026655 /* MWT Personal ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWT Personal ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AA2B4A2745BFA300026655 /* MWT_Personal_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWT_Personal_ProjectTests.swift; sourceTree = "<group>"; };
+		45AA2B502745BFA300026655 /* MWT Personal ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWT Personal ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AA2B542745BFA300026655 /* MWT_Personal_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWT_Personal_ProjectUITests.swift; sourceTree = "<group>"; };
+		45AA2B562745BFA300026655 /* MWT_Personal_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWT_Personal_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AA2B332745BFA100026655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA2B432745BFA300026655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA2B4D2745BFA300026655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45AA2B2D2745BFA100026655 = {
+			isa = PBXGroup;
+			children = (
+				45AA2B382745BFA100026655 /* MWT Personal Project */,
+				45AA2B492745BFA300026655 /* MWT Personal ProjectTests */,
+				45AA2B532745BFA300026655 /* MWT Personal ProjectUITests */,
+				45AA2B372745BFA100026655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45AA2B372745BFA100026655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AA2B362745BFA100026655 /* MWT Personal Project.app */,
+				45AA2B462745BFA300026655 /* MWT Personal ProjectTests.xctest */,
+				45AA2B502745BFA300026655 /* MWT Personal ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AA2B382745BFA100026655 /* MWT Personal Project */ = {
+			isa = PBXGroup;
+			children = (
+				45AA2B392745BFA100026655 /* MWT_Personal_ProjectApp.swift */,
+				45AA2B3B2745BFA100026655 /* ContentView.swift */,
+				45AA2B3D2745BFA300026655 /* Assets.xcassets */,
+				45AA2B3F2745BFA300026655 /* Preview Content */,
+			);
+			path = "MWT Personal Project";
+			sourceTree = "<group>";
+		};
+		45AA2B3F2745BFA300026655 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45AA2B402745BFA300026655 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45AA2B492745BFA300026655 /* MWT Personal ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				45AA2B4A2745BFA300026655 /* MWT_Personal_ProjectTests.swift */,
+			);
+			path = "MWT Personal ProjectTests";
+			sourceTree = "<group>";
+		};
+		45AA2B532745BFA300026655 /* MWT Personal ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45AA2B542745BFA300026655 /* MWT_Personal_ProjectUITests.swift */,
+				45AA2B562745BFA300026655 /* MWT_Personal_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "MWT Personal ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45AA2B352745BFA100026655 /* MWT Personal Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AA2B5A2745BFA300026655 /* Build configuration list for PBXNativeTarget "MWT Personal Project" */;
+			buildPhases = (
+				45AA2B322745BFA100026655 /* Sources */,
+				45AA2B332745BFA100026655 /* Frameworks */,
+				45AA2B342745BFA100026655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MWT Personal Project";
+			productName = "MWT Personal Project";
+			productReference = 45AA2B362745BFA100026655 /* MWT Personal Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45AA2B452745BFA300026655 /* MWT Personal ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AA2B5D2745BFA300026655 /* Build configuration list for PBXNativeTarget "MWT Personal ProjectTests" */;
+			buildPhases = (
+				45AA2B422745BFA300026655 /* Sources */,
+				45AA2B432745BFA300026655 /* Frameworks */,
+				45AA2B442745BFA300026655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AA2B482745BFA300026655 /* PBXTargetDependency */,
+			);
+			name = "MWT Personal ProjectTests";
+			productName = "MWT Personal ProjectTests";
+			productReference = 45AA2B462745BFA300026655 /* MWT Personal ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45AA2B4F2745BFA300026655 /* MWT Personal ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AA2B602745BFA300026655 /* Build configuration list for PBXNativeTarget "MWT Personal ProjectUITests" */;
+			buildPhases = (
+				45AA2B4C2745BFA300026655 /* Sources */,
+				45AA2B4D2745BFA300026655 /* Frameworks */,
+				45AA2B4E2745BFA300026655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AA2B522745BFA300026655 /* PBXTargetDependency */,
+			);
+			name = "MWT Personal ProjectUITests";
+			productName = "MWT Personal ProjectUITests";
+			productReference = 45AA2B502745BFA300026655 /* MWT Personal ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AA2B2E2745BFA100026655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					45AA2B352745BFA100026655 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					45AA2B452745BFA300026655 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 45AA2B352745BFA100026655;
+					};
+					45AA2B4F2745BFA300026655 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 45AA2B352745BFA100026655;
+					};
+				};
+			};
+			buildConfigurationList = 45AA2B312745BFA100026655 /* Build configuration list for PBXProject "MWT Personal Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45AA2B2D2745BFA100026655;
+			productRefGroup = 45AA2B372745BFA100026655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45AA2B352745BFA100026655 /* MWT Personal Project */,
+				45AA2B452745BFA300026655 /* MWT Personal ProjectTests */,
+				45AA2B4F2745BFA300026655 /* MWT Personal ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AA2B342745BFA100026655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AA2B412745BFA300026655 /* Preview Assets.xcassets in Resources */,
+				45AA2B3E2745BFA300026655 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA2B442745BFA300026655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA2B4E2745BFA300026655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45AA2B322745BFA100026655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AA2B3C2745BFA100026655 /* ContentView.swift in Sources */,
+				45AA2B3A2745BFA100026655 /* MWT_Personal_ProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA2B422745BFA300026655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AA2B4B2745BFA300026655 /* MWT_Personal_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA2B4C2745BFA300026655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AA2B552745BFA300026655 /* MWT_Personal_ProjectUITests.swift in Sources */,
+				45AA2B572745BFA300026655 /* MWT_Personal_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45AA2B482745BFA300026655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45AA2B352745BFA100026655 /* MWT Personal Project */;
+			targetProxy = 45AA2B472745BFA300026655 /* PBXContainerItemProxy */;
+		};
+		45AA2B522745BFA300026655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45AA2B352745BFA100026655 /* MWT Personal Project */;
+			targetProxy = 45AA2B512745BFA300026655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45AA2B582745BFA300026655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45AA2B592745BFA300026655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45AA2B5B2745BFA300026655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MWT Personal Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ashley.MWT-Personal-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45AA2B5C2745BFA300026655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MWT Personal Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ashley.MWT-Personal-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45AA2B5E2745BFA300026655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ashley.MWT-Personal-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWT Personal Project.app/MWT Personal Project";
+			};
+			name = Debug;
+		};
+		45AA2B5F2745BFA300026655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ashley.MWT-Personal-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWT Personal Project.app/MWT Personal Project";
+			};
+			name = Release;
+		};
+		45AA2B612745BFA300026655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ashley.MWT-Personal-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MWT Personal Project";
+			};
+			name = Debug;
+		};
+		45AA2B622745BFA300026655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ashley.MWT-Personal-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MWT Personal Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45AA2B312745BFA100026655 /* Build configuration list for PBXProject "MWT Personal Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AA2B582745BFA300026655 /* Debug */,
+				45AA2B592745BFA300026655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AA2B5A2745BFA300026655 /* Build configuration list for PBXNativeTarget "MWT Personal Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AA2B5B2745BFA300026655 /* Debug */,
+				45AA2B5C2745BFA300026655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AA2B5D2745BFA300026655 /* Build configuration list for PBXNativeTarget "MWT Personal ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AA2B5E2745BFA300026655 /* Debug */,
+				45AA2B5F2745BFA300026655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AA2B602745BFA300026655 /* Build configuration list for PBXNativeTarget "MWT Personal ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AA2B612745BFA300026655 /* Debug */,
+				45AA2B622745BFA300026655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AA2B2E2745BFA100026655 /* Project object */;
+}
